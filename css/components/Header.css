@@ -54,6 +54,58 @@ header .header__right .header__image .background{
     
  }
 
+ .stacks-content{
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  
+  
+}
+
+.stacks-content h3{
+  max-width: 62rem;
+  flex: 1;
+
+}
+
+.stacks {
+  display: flex;
+
+  align-items: center;
+
+  flex-direction: row;
+}
+
+.stacks ul li{
+  display: flex;
+  align-items: center;
+
+  position: relative;
+
+  margin: 10px;
+  padding: 10px;
+ 
+  list-style: none;
+
+
+}
+
+.stacks ul li img{
+  height: auto;
+  width: 30px;
+
+  transition: transform .3s;
+  
+
+}
+
+.stacks ul li img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+
  @media only screen and (max-width: 768px) {
     header {
       flex-direction: column-reverse;
